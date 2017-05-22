@@ -50,9 +50,9 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		
 		<property name="url"
-			value="jdbc:mysql://sql.e-varia.nazwa.pl:3306/e-varia?autoReconnect=true" />
-		<property name="username" value="e-varia" />
-		<property name="password" value="Jakniemytokto!" />
+			value="jdbc:mysql://localhost:3306/mydata?autoReconnect=true" />
+		<property name="username" value="user" />
+		<property name="password" value="password" />
 	</bean>
 
 	<jpa:repositories base-package="com.webX.repository"
